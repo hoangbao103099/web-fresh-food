@@ -1,0 +1,49 @@
+@url=http://localhost:5000
+@api=api/v1
+
+###
+POST {{url}}/{{api}}/post/create-post
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NDBiMzI1M2ZkOTFjYjc3ZjZhZDliYWIiLCJpYXQiOjE2Nzg1NDM4NTgsImV4cCI6MTY3ODU0NDQ1OH0.U_dplp5yEmmzZ1EW4RNHYodXPmLxQIqymSfiLV6Q5Sw
+
+{
+    "title": "hello",
+    "image": "image-1675529677997.png"
+}
+
+###
+GET  {{url}}/{{api}}/post/posts?skip=0
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NDBiMzI1M2ZkOTFjYjc3ZjZhZDliYWIiLCJ1c2VyUm9sZSI6ImFkbWluIiwiaWF0IjoxNjgwNjIwNTQ2LCJleHAiOjE2ODA2MjE0NDZ9.8ljXQHKWOp9h_Q_wZxO0iL8VP0NbcWRwR8lL9P_YXtA
+
+###
+GET {{url}}/{{api}}/post/63e5c07694a60f1f92fd313a
+
+###
+PUT {{url}}/{{api}}/post/640c6ad126f4cf1066d29358
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NDBiMzI1M2ZkOTFjYjc3ZjZhZDliYWIiLCJpYXQiOjE2Nzg1MzUzNDQsImV4cCI6MTY3ODUzNTk0NH0.gCUXicT66mNKoZzLGIdwh1D4QMbKSk2L46uhxFm_Tdc
+
+{
+    "title": "konichiwa"
+}
+
+###
+DELETE  {{url}}/{{api}}/post/63e5c07694a60f1f92fd313a
+
+###
+PUT {{url}}/{{api}}/post/640c8c0e1c6f6a257788e0ae/like
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NDBjOTMyZTAyMWU3ODk3Nzg3MjQ0MjgiLCJpYXQiOjE2Nzg1NDU3MTEsImV4cCI6MTY3ODU0NjMxMX0.hg4qoN1wZ0V539ISLytFru3BKnctNtuBblneSq20BVY
+
+{
+    "haha": "haha"
+}
+
+###
+POST {{url}}/{{api}}/post/user-current-posts?skip=0
+Content-Type: application/json
+
+{
+    "userID": "641ff8b66e98b42ccd6a01c6"
+}

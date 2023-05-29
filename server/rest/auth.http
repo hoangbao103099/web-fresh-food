@@ -1,0 +1,41 @@
+@url=http://localhost:5000
+@api=api/v1
+
+###
+POST {{url}}/{{api}}/auth/register
+Content-Type: application/json
+
+{
+    "username": "baohoang",
+    "password": "password",
+    "confirmpassword": "password",
+    "email": "baohoang@gmail.com",
+    "firstname": "Duc",
+    "lastname": "Nguyen",
+    "gender": "male",
+    "birthday": "6/29/2007"
+}
+
+###
+POST {{url}}/{{api}}/auth/login
+Content-Type: application/json
+
+{
+    "password": "password",
+    "email": "manhduc@gmail.com"
+}
+
+###
+POST {{url}}/{{api}}/auth/google
+Content-Type: application/json
+
+{
+    "access_token": "ya29.a0Ael9sCMXhUdB_HdE4iVK-nA54IpKiAjWnlnBApmqvIKk9XzgFXpQcKkzQu7MaW5o1zETbZhgqU7QxSWc6KX9QnDoti3onKGa0DfJvJvusU427FlC4x1sEieRHIaNyG_0NnmaLKfX8xADCvEvP0GvouWWWaKVaCgYKAX4SARASFQF4udJhMm850cWdohw1JbtjBLiwnA0163"
+}
+
+###
+POST {{url}}/{{api}}/auth/logout
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NDBiMzI1M2ZkOTFjYjc3ZjZhZDliYWIiLCJ1c2VyUm9sZSI6ImFkbWluIiwiaWF0IjoxNjgwMDIwMTY2LCJleHAiOjE2ODAwMjEwNjZ9.9C02rHgAoABCiKcPDsnVDZVBE7bfED-8v-Z-vtHctJQ
+
+###
+GET {{url}}/{{api}}/auth/loggedin

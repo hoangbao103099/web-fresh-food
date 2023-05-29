@@ -1,0 +1,78 @@
+@url=http://localhost:5000
+@api=api/v1
+
+###
+GET {{url}}/{{api}}/user/users
+    
+###
+GET {{url}}/{{api}}/user/640b3253fd91cb77f6ad9bab
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NDBiMzI1M2ZkOTFjYjc3ZjZhZDliYWIiLCJ1c2VyUm9sZSI6ImFkbWluIiwiaWF0IjoxNjc5ODA0MzkxLCJleHAiOjE2Nzk4MDQ0MDZ9.lBB06hbOhxch7J7QQoPROurzHlbnuTFNrEn7h0vY1Rk
+
+###
+GET {{url}}/{{api}}/user/getuser
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NDBiMzI1M2ZkOTFjYjc3ZjZhZDliYWIiLCJ1c2VyUm9sZSI6ImFkbWluIiwiaWF0IjoxNjc5ODAzMzMxLCJleHAiOjE2Nzk4MDMzNDZ9.RS1GjJGmXFwAuMDWyivzjtLwUDCsQHu-BlLRNmnUWDY
+
+###
+PUT {{url}}/{{api}}/user/update-user
+Content-Type: application/json
+
+{
+    "firstname": "burh",
+    "photo": "image-1679916871955.png"
+}
+
+###
+PUT {{url}}/{{api}}/password/changepassword
+Content-Type: application/json
+
+{
+    "oldPassword": "aobfpirbpibpwb",
+    "password": "pwrbprbpgwbpgbp4"
+}
+
+###
+PUT {{url}}/{{api}}/password/changepassword
+Content-Type: application/json
+
+{
+    "newPassword": "aobfpirbpibpwb",
+    "confirmPassword": "aobfpirbpibpwb"
+}
+
+###
+DELETE {{url}}/{{api}}/user/delete-user
+Content-Type: application/json
+
+{
+    "password": "password"
+}
+
+###
+POST {{url}}/{{api}}/password/forgot-password
+Content-Type: application/json
+
+{
+    "email": "woebfrb@gmail.com"
+}
+
+###
+PUT {{url}}/{{api}}/password/reset-password/90c2514fefe9801f5d9469203b4d75eadde57301ee69adddc8691747057b1c7963ccdb0c2596152596f945a1
+Content-Type: application/json
+
+{
+    "password": "wbpwrpwronwnppnpnpnpin"
+}
+
+###
+PUT {{url}}/{{api}}/user/63e5c9ea86ee5d1d8972599f/follow
+
+###
+POST {{url}}/{{api}}/user/finduser
+Content-Type: application/json
+
+{
+    "username": "burhhhhhhh"
+}
+
+###
+POST {{url}}/{{api}}/user/refresh-token

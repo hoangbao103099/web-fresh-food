@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "web-fresh-food",
+  "private_key_id": "e68fe07a2476aa09f84d5c239c00b106f1dd3e8a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDqGXssjbhVjjNj\nT+ThvYnS/oUGyB8ReRPx+473OiwoScuNLQMYEoduyzjB7fwBhtPCeYjfQZoyelJY\np6ZKb3mZqmGAxAwp/ZRiqpfWIUGv2UPjufpIl0sQu48kDKa5JDMbuZzRIuDlU3VK\nBZkL3bnMcSYegLUcUrYKUaYkTsZs4ohif30DAL1R8XGujoI3kqtP6nTg/h3nsKUY\nbXAcsQzbN2NEnNZPN9K+ZxHu/sZpd/2BsoITCJed1fn9S/QxECJT+ZakDpxCtK7d\nwH/VLvoMWHIL/L8kPQD91u/wvAR6tHEQ2j877ERTt0MDU7fcVhyzrkQX0RMFsi9h\nJPHRjD9/AgMBAAECggEABFnv5llGBV/CHcT051Xwvg7EEJG0s3bxg3ceZlha926+\nYq6PrFQKghPd8guHOndemp1MCYD8fuwIzs64R7xAYYuqCfeFlbGPH1xgu8wHdAom\nTxEnEVAFRwItfB6OFMqS9p93G5NkjxlY3e+Hs5GYrAT9upBq4rljhS0/rioWrxxn\nu3j046AVG2uvwwAszJ816GVzCs9Wdv5aHBu7yz/GlTvcnzYLqs9lHPgZGTzC3h6e\nj6J1N2P0HIIwdFYuskkNYit+SHYUFksiU+9nJiG3IPxu4Aw2X8psVeHYVFmdv5v+\ngYCQ5ni6QPkvywckEbIW1e9vSz6hfvnIqfE8jRGO7QKBgQD8Agw8ZRbuwzfoJ9Dr\nY+UjchS3VAZtZEStjdes3UbVg99thQrMrXwHyGQ7kOO6lmqjIZg5jZ3LMqkdk8te\nQtaiqNNhthVlCM0+jBRitZ3lgqnu4SpDV+FVcs817nZEjgwwOrMpCc4/I1nv1lVC\nHGy16atQSmkObkhF2LMiDanq1QKBgQDtzs9u3jnKdXrWrsmuDmnJGKMtQw3oaggo\neuQ9a21VbQku7eilUIglh6wHybKmEN/jIYIqJqxLo3fAvJat/+4fsAI163sUVTZc\nPCc+vYY82Dr+NxkBhjW/BeVkb6IFTBXSwLO724r4v2uhGNVR4hAq/um4kmeMDAYz\nbIPrypYDAwKBgGO2P7cp3IAOeDGAh5aLyR9URUQgmAZylQYCyKKaTyuuaRpBePtx\nbVD7BkXXV3P9jiYL5dpn4VaELgwI7X/XfGuR10mjLSXz7Jnh/TLtX5NvNuPQ7dMF\nk6AmtDxHpT4M4l+26irDuXqb9zsBmGx3KMB1u5YiSx0tn6UbUA2aUHAdAoGBAOtz\nAq/7eG56yId8ARTDEnvXV+A9bqy5JqClpAsnrNWSojADv37F8DZwUKRZT/bZ6EGi\ncJS5O4ecLrn2Pp3CMorPIjEul+q2v56stBKLZTgiwq3l8W0v61DZTpiVam4iOc0z\nnACYSs0kATU8OCDdWTKottFWqwze7tjFTQwMxV/vAoGBAIQ8dtoc/lGKp7SodKDR\nrk0Nyb0mNQf0VqGK4ncHTrsZQO4ORRShDXSNf7KfC8tjUhTLsvnOzhUCpA7aobcV\nb1A57ieVi8A5PGekG2e4LhiDTPgfgF5Kh2bd03zeS80bF0c8n2AntpkyArhAZE2N\nWkcZNZqhmQaEEdhQ10HgfFo4\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-xmhu4@web-fresh-food.iam.gserviceaccount.com",
+  "client_id": "109406413140471895093",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xmhu4%40web-fresh-food.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
